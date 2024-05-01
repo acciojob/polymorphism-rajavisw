@@ -7,7 +7,7 @@ public class Main {
         int ans1=p.product(10,20,30);
         double ans2=p.product(1.0,2.0);
     }
-    static class Product{
+    public static class Product{
         public int product(int x, int y) {
             return x*y;
         }
